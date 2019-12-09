@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-1"
-}
-
 resource "aws_security_group" "opsschool_consul" {
   name        = "opsschool-consul"
   description = "Allow ssh & consul inbound traffic"
